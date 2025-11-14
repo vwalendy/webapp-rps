@@ -19,11 +19,17 @@ The server stores the full game state, while browser clients interact through se
 ---
 
 ## 📁 Project Structure
+
+```
 apps/
-├── js/ # Browser UIs (HTML + Text)
-├── jvm/ # Server logic (State, transition, projection)
-└── shared/ # Shared types, events, views, serializers
+├── js/        # Browser UIs (HTML + Text)
+├── jvm/       # Server logic (State, transition, projection)
+└── shared/    # Shared types, events, views, serializers
+
 build.sbt
+```
+
+
 
 ---
 
