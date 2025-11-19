@@ -50,4 +50,8 @@ enum Event:
   /** A player has chosen their hand. */
   case HandSelected(hand: Hand)
 
-type State = Unit // Change this!
+case class State(
+    hands: Map[UserId, Option[Hand]],
+    scores: Map[UserId, Int],
+    viewingHands: Boolean
+)
