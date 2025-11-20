@@ -40,7 +40,8 @@ Use the special command required by the project:
 
 ```bash
 sbt --client
-sbt -Djline.terminal=none --client
+
+or if it doesn't work:    sbt -Djline.terminal=none --client
 
 Inside SBT:
 
